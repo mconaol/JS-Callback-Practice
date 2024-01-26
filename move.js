@@ -6,7 +6,12 @@ function move(element) {
         element.style.bottom = bottom + 'px'
     }
 
+    function moveWithArrowKeys(left, bottom){
+
+    }
+
     return {
-        to: moveToCoordinates
+        to: moveToCoordinates, 
+        withArrowKeys: moveWithArrowKeys
     }
 }
